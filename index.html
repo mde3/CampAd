@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== MAIN CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!--=============== BOX ICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
+    <!--=============== WEBSITE TITLE ===============-->
+    <title>CampAd</title>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">CampAd</a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#activities" class="nav-link">Activities</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+            <div class="nav-btns">
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+                <!-- Toggle button -->
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <video class="home-video" src="./assets/video/vid1.mp4" autoplay muted loop></video>
+            <video class="home-video" src="./assets/video/vid2.mp4" autoplay muted loop></video>
+            <video class="home-video active" src="./assets/video/vid3.mp4" autoplay muted loop></video>
+            <video class="home-video" src="./assets/video/vid4.mp4" autoplay muted loop></video>
+            <video class="home-video" src="./assets/video/vid5.mp4" autoplay muted loop></video>
+            <div class="home-container container">
+                <!-- video 1 -->
+                <div class="home-data">
+                    <h3 class="home-desc2">Take memories back with you</h3>
+                    <h1 class="home-title"><span class="span1">Adventures</span><br><span class="span2">Bouldering</span></h1>
+                    <p class="home-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Adipisci sunt commodi exercitationem? Fugiat, quos facilis? Odit, ullam doloribus!</p>
+                    <a href="#about" class="button home-button">DISCOVER NOW</a>
+                </div>
+                <!-- video 2 -->
+                <div class="home-data">
+                    <h3 class="home-desc2">Take memories back with you</h3>
+                    <h1 class="home-title"><span class="span1">Adventures</span><br><span class="span2">Out in the nature</span></h1>
+                    <p class="home-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Adipisci sunt commodi exercitationem? Fugiat, quos facilis? Odit, ullam doloribus!</p>
+                    <a href="#about" class="button home-button">DISCOVER NOW</a>
+                </div>
+                <!-- video 3 -->
+                <div class="home-data active">
+                    <h3 class="home-desc2">Take memories back with you</h3>
+                    <h1 class="home-title"><span class="span1">Adventures</span><br><span class="span2">Out on the Road</span></h1>
+                    <p class="home-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Adipisci sunt commodi exercitationem? Fugiat, quos facilis? Odit, ullam doloribus!</p>
+                    <a href="#about" class="button home-button">DISCOVER NOW</a>
+                </div>
+                <!-- video 4 -->
+                <div class="home-data">
+                    <h3 class="home-desc2">Take memories back with you</h3>
+                    <h1 class="home-title"><span class="span1">Adventures</span><br><span class="span2">Fishing</span></h1>
+                    <p class="home-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Adipisci sunt commodi exercitationem? Fugiat, quos facilis? Odit, ullam doloribus!</p>
+                    <a href="#about" class="button home-button">DISCOVER NOW</a>
+                </div>
+                <!-- video 5 -->
+                <div class="home-data">
+                    <h3 class="home-desc2">Take memories back with you</h3>
+                    <h1 class="home-title"><span class="span1">Adventures</span><br><span class="span2">Hiking</span></h1>
+                    <p class="home-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Adipisci sunt commodi exercitationem? Fugiat, quos facilis? Odit, ullam doloribus!</p>
+                    <a href="#about" class="button home-button">DISCOVER NOW</a>
+                </div>
+                <!-- sliders -->
+                <div class="home-slider">
+                    <div class="slidebtn"></div>
+                    <div class="slidebtn"></div>
+                    <div class="slidebtn active"></div>
+                    <div class="slidebtn"></div>
+                    <div class="slidebtn"></div>
+                </div>
+            </div>
+        </section>
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <div class="container">
+                <figure class="about-banner">
+                    <img src="./assets/images/about1.jpg" alt="about" class="bigger-img">
+                    <img src="./assets/images/about2.jpg" alt="about" class="banner2-img">
+                </figure>
+                <div class="about-content">
+                    <div class="about-top">
+                        <p class="about-subtitle about-subtitle2">About Us</p>
+                        <h2 class="about-title">Outside is the New Inside</h2>
+                        <p class="about-desc">
+                            At its core, CampAd is all about having fun, making new friends, creating great stories and making
+                            memorable memories. Are you looking for new ways to add excitement to your life? Consider the list
+                            of camp activities below.
+                        </p>
+                    </div>
+                    <ul class="about-list">
+                        <li class="about-item">
+                            <div class="about-item-icon">
+                                <i class='bx bx-swim'></i>
+                            </div>
+                            <p class="about-item-text">HIKING & CAMPING</p>
+                        </li>
+                        <li class="about-item">
+                            <div class="about-item-icon">
+                                <i class='bx bx-cross'></i>
+                            </div>
+                            <p class="about-item-text">ARCHERY & RIFLERY</p>
+                        </li>
+                        <li class="about-item">
+                            <div class="about-item-icon">
+                                <i class='bx bx-cable-car'></i>
+                            </div>
+                            <p class="about-item-text">BOULDERING</p>
+                        </li>
+                        <li class="about-item">
+                            <div class="about-item-icon">
+                                <i class='bx bx-walk'></i>
+                            </div>
+                            <p class="about-item-text">ROPES COURSE</p>
+                        </li>
+                    </ul>
+                    <p class="callout">
+                        "You might think that camping and hiking trips are only good
+                        for your physical health, but they’re also great for your
+                        mental and emotional well-being."
+                    </p>
+                    <a href="#" class="button about-button">Discover More</a>
+                </div>
+            </div>
+        </section>
+        <!--=============== JUST SECTION ===============-->
+        <section class="just">
+            <div class="container">
+                <div class="just-container">
+                    <h2 class="just-title">is camping for you?<br>Readers Tip</h2>
+                    <p class="just-desc">
+                        Pack Some Privacy<br>
+                        Window screens do double duty by upping privacy and cooling things down.<br>
+                        If you plan on sleeping in your car, you can also prevent a stuffy environment<br>
+                        by rolling the windows down and leaving the shades intact for a welcoming breeze.
+                    </p>
+                    <p class="just-desc just-desc2">Read More</p>
+                </div>
+            </div>
+        </section>
+        <!--=============== GALLERY SECTION ===============-->
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <p class="section-subtitle">Photo Gallery</p>
+                <h2 class="section-title">Photo's From Our Gallery</h2>
+                <ul class="gallery-list">
+                    <!-- gallery 1 -->
+                    <li class="gallery-item">
+                        <figure class="gallery-image">
+                          <img src="./assets/images/gallery1.jpg" alt="Gallery image">
+                        </figure>
+                    </li>
+                    <!-- gallery 2 -->
+                    <li class="gallery-item">
+                        <figure class="gallery-image">
+                          <img src="./assets/images/gallery2.jpg" alt="Gallery image">
+                        </figure>
+                    </li>
+                    <!-- gallery 3 -->
+                    <li class="gallery-item">
+                        <figure class="gallery-image">
+                          <img src="./assets/images/gallery3.jpg" alt="Gallery image">
+                        </figure>
+                    </li>
+                    <!-- gallery 4 -->
+                    <li class="gallery-item">
+                        <figure class="gallery-image">
+                          <img src="./assets/images/gallery4.jpg" alt="Gallery image">
+                        </figure>
+                    </li>
+                    <!-- gallery 5 -->
+                    <li class="gallery-item">
+                        <figure class="gallery-image">
+                          <img src="./assets/images/gallery5.jpg" alt="Gallery image">
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--=============== ACTIVITIES SECTION ===============-->
+        <section class="activities" id="activities">
+            <div class="container">
+                <p class="section-subtitle">Popular Activities</p>
+                <h2 class="section-title">Checkout Our Activities</h2>
+                <ul class="activities-list">
+                    <!-- activity 1 -->
+                    <li>
+                        <div class="activities-card">
+                            <figure class="card-banner">
+                                <img src="./assets/images/activity1.jpg" alt="Camping Adventures">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title">Camping Adventures</h3>
+                                <p class="card-text">Camping is an outdoor activity involving overnight stays away from home in a tent or a recreational vehicle.</p>
+                                <ul class="card-meta-list">
+                                    <li class="card-meta-item">
+                                        <div class="meta-box">
+                                            <i class='bx bxs-time-five'></i>
+                                            <p class="text">7D/6N</p>
+                                        </div>
+                                    </li>
+                                    <li class="card-meta-item">
+                                        <div class="meta-box">
+                                            <i class='bx bxs-group'></i>
+                                            <p class="text">pax: 10</p>
+                                        </div>
+                                    </li>
+                                    <li class="card-meta-item">
+                                        <div class="meta-box">
+                                            <i class='bx bxs-navigation'></i>
+                                            <p class="text">Outdoor</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-price">
+                                <div class="wrapper">
+                                    <p class="reviews">(45 reviews)</p>
+                                    <div class="card-rating">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                    </div>
+                                </div>
+                                <p class="price">$20<span>/ per person</span></p>
+                                <button class="button button-secondary">Book Now</button>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- activity 2 -->
+                    <li>
+                        <div class="activities-card">
+                            <figure class="card-banner">
+                                <img src="./assets/images/activity2.jpg" alt="Hiking Adventures">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="h3 card-title">Hiking Adventures</h3>
+                                <p class="card-text">Hiking is an activity of going for long walks in the countryside for pleasure</p>
+                                <ul class="card-meta-list">
+                                    <li class="card-meta-item">
+                                        <div class="meta-box">
+                                            <i class='bx bxs-time-five'></i>
+                                            <p class="text">7D/6N</p>
+                                        </div>
+                                    </li>
+                                    <li class="card-meta-item">
+                                        <div class="meta-box">
+                                            <i class='bx bxs-group'></i>
+                                            <p class="text">pax: 10</p>
+                                        </div>
+                                    </li>
+                                    <li class="card-meta-item">
+                                        <div class="meta-box">
+                                            <i class='bx bxs-navigation'></i>
+                                            <p class="text">Outdoor</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-price">
+                                <div class="wrapper">
+                                    <p class="reviews">(20 reviews)</p>
+                                    <div class="card-rating">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                    </div>
+                                </div>
+                                <p class="price">$15<span>/ per person</span></p>
+                                <button class="button button-secondary">Book Now</button>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- activity 3 -->
+                    <li>
+                        <div class="activities-card">
+                            <figure class="card-banner">
+                                <img src="./assets/images/activity3.jpg" alt="Bouldering Adventures">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="h3 card-title">Bouldering Adventures</h3>
+                                <p class="card-text">Bouldering is a form of free climbing that is performed on small rock formations or artificial rock walls without the use of ropes or harnesses.</p>
+                                <ul class="card-meta-list">
+                                    <li class="card-meta-item">
+                                        <div class="meta-box">
+                                            <i class='bx bxs-time-five'></i>
+                                            <p class="text">7D/6N</p>
+                                        </div>
+                                    </li>
+                                    <li class="card-meta-item">
+                                        <div class="meta-box">
+                                            <i class='bx bxs-group'></i>
+                                            <p class="text">pax: 10</p>
+                                        </div>
+                                    </li>
+                                    <li class="card-meta-item">
+                                        <div class="meta-box">
+                                            <i class='bx bxs-navigation'></i>
+                                            <p class="text">Indoor</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-price">
+                                <div class="wrapper">
+                                    <p class="reviews">(30 reviews)</p>
+                                    <div class="card-rating">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                    </div>
+                                </div>
+                                <p class="price">$10<span>/ per person</span></p>
+                                <button class="button button-secondary">Book Now</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="load-more">
+                    <a href="#" class="button button-primary">View All Activities</a>
+                </div>
+            </div>
+        </section>
+        <!--=============== CONTACT SECTION ===============-->
+        <section class="contact" id="contact">
+            <div class="content">
+                <h2 class="contact-section-title">Contact Us</h2>
+                <p class="contact-section-subtitle">To get in touch, reach me at my socials below and feel free to leave a message</p>
+            </div>
+            <!-- contact-container -->
+            <div class="contact-container container">
+                <!-- first box -->
+                <div class="contactInfo">
+                    <!-- box 1 -->
+                    <div class="box">
+                        <div class="icon"><i class='bx bxl-github'></i></div>
+                        <div class="box-data">
+                            <h3 class="box-title">Github</h3>
+                            <p class="box-desc">mde3</p>
+                        </div>
+                    </div>
+                    <!-- box 2 -->
+                    <div class="box">
+                        <div class="icon"><i class='bx bxs-envelope' ></i></div>
+                        <div class="box-data">
+                            <h3 class="box-title">Email</h3>
+                            <p class="box-desc">mabbzasvp@gmail.com</p>
+                        </div>
+                    </div>
+                    <!-- box 3 -->
+                    <div class="box">
+                        <div class="icon"><i class='bx bxs-phone' ></i></div>
+                        <div class="box-data">
+                            <h3 class="box-title">Phone</h3>
+                            <p class="box-desc">+254-115-598830</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- second box -->
+                <div class="contactForm">
+                    <form action="">
+                        <h2 class="contactForm-title">Send Message</h2>
+                        <!-- box1 -->
+                        <div class="inputBox">
+                            <input type="text" name="" required>
+                            <span>Enter your Name</span>
+                        </div>
+                        <!-- box2 -->
+                        <div class="inputBox">
+                            <input type="text" name="" required>
+                            <span>Valid Email Address</span>
+                        </div>
+                        <!-- box3 -->
+                        <div class="inputBox">
+                            <textarea required></textarea>
+                            <span>Type your Message...</span>
+                        </div>
+                        <!-- box4 -->
+                        <div class="inputBox">
+                            <input type="submit" name="" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--=============== JOURNEY SECTION ===============-->
+        <section class="journey">
+            <div class="container">
+                <div class="journey-container">
+                    <h3 class="journey-title">Begin Your Adventurous Journey Here</h3>
+                    <a href="#" class="button button-journey">Get Started</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+        <div class="footer-container container grid">
+            <div class="footer-content grid">
+                <!-- footer 1st -->
+                <div class="footer-data">
+                    <h3 class="footer-title">CampAd</h3>
+                    <p class="footer-desc">Look deep into nature then you<br>will understand everything better.</p>
+                    <div>
+                        <a href="https://github.com/mde3" target="_blank" class="footer-socials"><i class='bx bxl-github' ></i></a>
+                        <a href="#" class="footer-socials"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" class="footer-socials"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+                <!-- footer 2nd -->
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Quick Links</h3>
+                    <ul>         
+                        <li class="footer-item"><a href="#home" class="footer-link">Home</a></li>
+                        <li class="footer-item"><a href="#about" class="footer-link">About</a></li>
+                        <li class="footer-item"><a href="#gallery" class="footer-link">Gallery</a></li>
+                        <li class="footer-item"><a href="#activities" class="footer-link">Activities</a></li>
+                        <li class="footer-item"><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- footer 3rd -->
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Get in Touch</h3>
+                    <ul>
+                        <li class="footer-item"><a href="#" class="footer-link">Nairobi, Kenya</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">+254-115-598830</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">mabbzasvp@gmail.com</a></li>
+                    </ul>
+                </div>
+                <!-- footer 4th -->
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Newsletter</h3>
+                    <p class="newsletter-text">Sign up and receive the latest tips via email.</p>
+                    <form action="" class="footer-form">
+                        <input type="email" name="email" placeholder="Email Address" required class="footer-input">
+                        <button type="submit" class="footer-form-btn" aria-label="Submit"></button>
+                    </form>
+                </div>
+            </div>
+            <!-- footer rights -->
+            <div class="footer-rights">
+                <p class="footer-copy">&#169; 2022 <a href="https://github.com/mde3" target="_blank" class="rights-link">Mabior</a> | All rights reserved.</p>
+                <div class="footer-terms">
+                    <a href="#" class="footer-terms-link">Terms &#38; Agreements</a>
+                    <a href="#" class="footer-terms-link">Privacy Policy</a>
+                    <a href="#" class="footer-terms-link">FAQs</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+    </a>
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
