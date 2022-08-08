@@ -1,4 +1,4 @@
-# A Fully Responsive Camp Adventure Landing Page
+# A Fully Responsive Camp Adventure Website
 > This is a basic static website about camp adventure showcasing my Frond-End skills.
 ## Live demo [_here_](https://campad.netlify.app/).
 
