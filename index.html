@@ -388,26 +388,26 @@
                 </div>
                 <!-- second box -->
                 <div class="contactForm">
-                    <form action="">
+                    <form action="POST" data-netlify="true">
                         <h2 class="contactForm-title">Send Message</h2>
                         <!-- box1 -->
                         <div class="inputBox">
-                            <input type="text" name="" required>
+                            <input type="text" name="name" id="name" required>
                             <span>Enter your Name</span>
                         </div>
                         <!-- box2 -->
                         <div class="inputBox">
-                            <input type="text" name="" required>
+                            <input type="text" name="email" id="email" required>
                             <span>Valid Email Address</span>
                         </div>
                         <!-- box3 -->
                         <div class="inputBox">
-                            <textarea required></textarea>
+                            <textarea name="message" id="message" required></textarea>
                             <span>Type your Message...</span>
                         </div>
                         <!-- box4 -->
                         <div class="inputBox">
-                            <input type="submit" name="" value="Submit">
+                            <input type="submit" value="Submit">
                         </div>
                     </form>
                 </div>
