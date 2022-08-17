@@ -1,12 +1,20 @@
-# A Fully Responsive Camp Adventure Website
-> This is a basic static website about camp adventure showcasing my Frond-End skills.
-## Live demo [_here_](https://campad.netlify.app/).
+<div align="center">
+  
+  ![GitHub repo size](https://img.shields.io/github/repo-size/mde3/CampAd)
+  [![Twitter Follow](https://img.shields.io/twitter/follow/mabiorduom?style=social)](https://twitter.com/intent/follow?screen_name=mabiorduom)
+  ![GitHub stars](https://img.shields.io/github/stars/mde3/CampAd?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/mde3/CampAd?style=social)
+  
+  <h2 align="center">CampAd - A Camp Adventure Website</h2>
 
-## Table of Contents
-* [Overwiew](#overview)
-* [Preview](#preview)
-* [Tools Used](#tools-used)
-* [Built With](#built-with)
+  A fully responsive camp adventure website concept showcasing my frond-end skills.
+
+  <a href="https://campad.netlify.app/"><strong>➥ Live Demo</strong></a>
+
+</div>
+
+### Preview Screenshot
+![Example screenshot](preview.png)
 
 ### Overview
 - A Responsive Camp Adventure Website
@@ -15,9 +23,6 @@
 - It has darkmode/lightmode features.
 - SEO optimized
 - Contains animations when scrolling.
-
-### Preview
-![Example screenshot](preview.png)
 
 ### Tools Used
 - Icons: https://boxicons.com/
@@ -30,3 +35,4 @@
 - Javascript
 - CSS Flexbox
 - CSS Grid
+
